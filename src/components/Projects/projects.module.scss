@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    padding: 5rem;
+
+    .textContainer {
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+
+        h2 {
+            font-size: 1.875rem;
+            font-weight: 800;
+        }
+    
+        .borderText {
+            width: 5rem;
+            height: .4rem;
+            background-color: #000;
+            margin-top: .6rem;
+        }
+    }
+    
+}

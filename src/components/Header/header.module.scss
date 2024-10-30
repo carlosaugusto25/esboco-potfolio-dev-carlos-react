@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    padding: 3rem;
+    margin-bottom: 10rem;
+
+    .title {
+       font-size: 2.25rem;
+       font-weight: 800; 
+    }
+
+    .content {
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .nav {
+            display: flex;
+            gap: 1.5rem;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: rotate(-90deg); 
+            transform-origin: left top;
+    
+            a {
+                text-decoration: none;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .titleContent {
+        font-size: 2.8rem;
+        font-weight: 400;
+        font-family: "DotGothic16", sans-serif;
+    }
+
+    
+}
