@@ -1,0 +1,104 @@
+.container {
+    width: 100%;
+    padding: 5rem;
+
+    .textContainer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 5rem;
+
+        h2 {
+            font-size: 1.875rem;
+            font-weight: 800;
+        }
+    
+        .borderText {
+            width: 5rem;
+            height: .4rem;
+            background-color: #000;
+            margin-top: .6rem;
+            margin-bottom: 5.8rem;
+        }
+    }
+
+    .contentAbout {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 17rem;
+            border-radius: 10rem;
+            margin-right: 3rem;
+        }
+
+        .information {
+            width: 60%;
+            h4 {
+               font-size: 1.8rem;
+               font-weight: 400; 
+            }
+            p{
+                font-size: 1rem;
+                margin-top: 1rem;
+                line-height: 2rem;
+                margin-bottom: 1.25rem;
+            }
+
+            .links {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: .5rem;
+
+                a {
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    .technologies {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        padding: 5rem 0;
+    }
+
+    .experiences {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .experienceCard {
+            width: 24rem;
+            height: 15rem;
+            box-shadow: 0px 0px 1px 0px #00000040;
+            border-radius: 1rem;
+            padding: 1.25rem;
+
+            .contentTechs {
+                border-left: 2px solid #00000040;
+                padding-left: 1.5rem;
+
+                h4 {
+                    font-size: 1rem;
+                    font-weight: 800; 
+                    line-height: 1.3rem;
+                    margin-bottom: .5rem;
+                }
+    
+                p {
+                    font-size: .625rem;
+                    font-weight: 300;
+                    line-height: 1.2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    height: 14rem;
+    width: 100%;
+    margin-bottom: 10rem;
+
+    .imgProject {
+        height: 100%;
+        width: 14rem;
+        background-color: var(--gray-primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        img {
+            width: 11rem;
+            border-radius: .3rem;
+        }
+
+        .technologies {
+            position: absolute;
+            bottom: .6rem;
+            right: .6rem;
+            display: flex;
+            gap: .375rem;
+            align-items: center;
+            border-radius: 15px;
+
+            .content {
+                font-size: .5rem;
+                font-weight: 700;
+                background-color: #fff;
+                padding: .1rem .5rem;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .textProject {
+        padding: 1rem 1rem 1rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        h4 {
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            color: var(--gray-secondary);
+        }
+    }
+}
