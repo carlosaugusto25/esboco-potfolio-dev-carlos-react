@@ -21,7 +21,7 @@ export const data = [
         path:'https://organizador-tarefas-six.vercel.app'
     },
     {
-        id:3, 
+        id:4, 
         title: 'Portfólio de arquitetura',
         description: 'Sistema construído em React e CSS para simular um portfólio com troca de idiomas',
         tech: ['React', 'CSS', 'TypeScript'],
