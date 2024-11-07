@@ -3,7 +3,7 @@ import styles from './header.module.scss'
 export function Header() {
     return (
         <header className={styles.container}>
-            <p className={styles.title}>DNC</p>
+            <p className={styles.title}>{'<devcarlos/>'}</p>
             <div className={styles.content}>
                 <nav className={styles.nav}>
                     <a href="#">contato</a>
